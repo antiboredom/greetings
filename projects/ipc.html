@@ -1,0 +1,123 @@
+<section class="project" id="ipc">
+  <h2>The Intergovernmental Panel on <del>Climate Change</del> Capitalism</h2>
+
+  <p><a href="http://intergovernmentalpaneloncapitalism.org" target="_blank">Launch Project</a>
+  </p>
+
+  <p>The Intergovernmental Panel on Climate Change, founded by the United Nations in
+    1988, is the "leading international body for the assessment of climate change".
+    The organization is tasked with assessing and synthesizing (but not producing)
+    research around climate change. Every few years they publish a series of comprehensive
+    reports on the current state of climate change research and knowledge.</p>
+
+  <p>In 2007, the Nobel Peace Prize was jointly awarded to Al Gore and the IPCC "for
+    their efforts to build up and disseminate greater knowledge about man-made climate
+    change, and to lay the foundations for the measures that are needed to counteract
+    such change."</p>
+
+  <p><a href="http://tegabrain.com/" target="_blank">Tega Brain</a> and I have embarked
+    on an ambitious project to edit all material published by the IPCC: through a
+    series of automated procedures we replace every instance of the phrase "climate
+    change" with the word "capitalism". <a href="http://intergovernmentalpaneloncapitalism.org"
+    target="_blank">The Intergovernmental Panel on Capitalism</a> is a fictional world
+    whose foundation is a one-line joke taken to its most extreme conclusion.
+  </p>
+
+  <p>If you wish to learn more about the IPCC, see their Fact Sheet [LINK to edited
+    fact sheet]</p>
+
+  <p>We start our systematic process with the IPCC's Fifth Assessment Report (AR5):
+    5000 pages of text split into four subreports. We used Adobe Acrobat for the
+    find/replace.
+
+    <div class='embed-container'>
+      <iframe src="https://player.vimeo.com/video/118779387" frameborder="0" webkitallowfullscreen
+      mozallowfullscreen allowfullscreen></iframe>
+    </div>
+
+    <p>Afterwards we printed and bound our modified reports.</p>
+
+    <p>
+      <img src="images/printedreports.jpg">
+    </p>
+
+    <p>The edited reports contain a wealth of useful information and insight about capitalism.</p>
+
+    <p>
+      <img src="images/cap1.png">
+    </p>
+    <p>
+      <img src="images/cap2.png">
+    </p>
+    <p>
+      <img src="images/cap3.png">
+    </p>
+    <p>
+      <img src="images/cap4.png">
+    </p>
+    <p>
+      <img src="images/cap5.png">
+    </p>
+    <p>
+      <img src="images/cap6.png">
+    </p>
+    <p>
+      <img src="images/cap7.png">
+    </p>
+    <p>
+      <img src="images/cap8.png">
+    </p>
+    <p>
+      <img src="images/cap9.png">
+    </p>
+
+
+    <p>Next, we downloaded the entire IPCC website using a tool called HTTRACK, and
+      the did the find/replace using SED.</p>
+
+    <p>
+      <img src="images/ipcwebsite.png">
+    </p>
+
+    <p>Not fully satisfied, I wrote a python script that does find/replace in images,
+      using the open source optical character recognition tool tesseract.</p>
+
+    <p>
+      <img src="images/alteredreports.jpg">
+    </p>
+
+    <p>Finally, I wrote another python script that does find/replace in video. First,
+      the script transcribes audio and extracts timestamps for the searched word.
+      Then, it creates a new audio track by overdubbing the found words with the
+      desired replacement. In this case we used instances of the word "capitalism"
+      extracted from the audiobook version of Pickety's "Capital in the 21st Century."
+      I ran the script on all 104 videos in the IPCC's YouTube channel. Many of these
+      are videos clearly meant for internal use.</p>
+
+    <div class='embed-container'>
+      <iframe src='http://www.youtube.com/embed/Sk4bXogBFqY' frameborder='0' allowfullscreen></iframe>
+    </div>
+
+    <p>I then made a supercut of all the instances where a replacement happened.</p>
+
+    <div class='embed-container'>
+      <iframe src="https://player.vimeo.com/video/124997335" frameborder="0" webkitallowfullscreen
+      mozallowfullscreen allowfullscreen></iframe>
+    </div>
+
+    <p>In this project, the IPCC's organizational materials and output become a canvas
+      onto which I can project my own fantasy. The fantasy is timid in nature: the
+      fictional world we are building is not a utopia where private property is abolished
+      - instead it is a light reform - all that has changed is word; the hopeless
+      rush towards apocalyptic self-destruction remains intact. The exuberance I
+      feel when browsing the fictional website and watching hours of fictional video
+      quickly turns to vertigo.</p>
+
+    <p>The project will only truly be complete when we have made a full replica of the
+      IPCC offices, and enlisted an international team of scientists and policy makers
+      to study the deleterious effects of global capitalism.</p>
+
+    <p>In the words of the Nobel Committee: "Action is necessary now, before capitalism
+      moves beyond man's control."</p>
+
+</section>
