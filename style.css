@@ -16,6 +16,9 @@ body {
   line-height: 1.5;
   background: #eee;
 }
+a {
+  color: #000;
+}
 /* a.project { */
 
 /*   display: block; */

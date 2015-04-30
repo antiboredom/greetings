@@ -3,37 +3,63 @@
   <p><a href="http://antiboredom.github.io/streetviews" target="_blank">Launch Project</a>
   </p>
 
+  <p>
+    <a href="http://antiboredom.github.io/streetviews" target="_blank">
+      <img src="/images/streetviews-site.png">
+    </a>
+  </p>
 
-  <p>Street Views is an inventory of physical locations whose legal, political or social
+  <p><em>Street Views</em> is an inventory of physical locations whose legal, political or social
     statuses are in some way remarkable, but invisible to a casual observer.</p>
 
   <!-- <p>Street Views is an inventory of physical locations with remarkable but difficult&#45;to&#45;observe legal, political or social statuses.</p> -->
 
-  <p>The project is split into three categories of locations: real estate assets owned
-    by US congresspeople, privately owned and run prisons, and for-profit universities.</p>
+  <p>The project is split into three categories of locations: <a href="http://antiboredom.github.io/streetviews#congress"
+    target="_blank">real estate assets owned
+    by US congresspeople</a>, <a href="http://antiboredom.github.io/streetviews#prison"
+    target="_blank">privately owned and run prisons</a>, and <a href="http://antiboredom.github.io/streetviews#college"
+    target="_blank">for-profit universities</a>.</p>
 
-  <p>[ADD PART ABOUT BRIAN]</p>
-  <p>[ADD SOMETHING ABOUT EACH CATEGORY OF LOCATION]</p>
-
-  <h3>Real Estate Assets Owned by US Congresspeople</h3>
-  <p><a href="http://brianclitonstudio" target="_blank">Brian Clifton</a> and I discovered...</p>
-  <p>Vid</p>
-
-  <h3>Privately Owned and Run Prisons</h3>
-  <!-- <p>It's super cool how there's a profit motive in incarcerating people.</p> -->
-  <p>Corrections Corporation of America Stock Price</p>
-  <p>
-    <a href="https://www.google.com/finance?chdnp=0&chdd=0&chds=0&chdv=0&chvs=Linear&chdeh=0&chfdeh=0&chdet=1430164800000&chddm=98923&chls=IntervalBasedLine&q=NYSE:CXW&ntsp=0&ei=zG8-VaCMMKHXsAfoh4HACw">
-      <img src="https://www.google.com/finance/getchart?q=CXW&p=2Y">
-    </a>
+  <p>I began this project with <a href="http://brianclitonstudio.com" target="_blank">Brian Clifton</a>,
+    after we noticed physical locations in a list of assets owned by US Congresspeople
+    (published by Open Secrets). We extracted the address information and I wrote
+    a script to scrape Google Street View to capture images of each property. Afterwards
+    I found location information for privately-owned prisons and for-profit colleges,
+    and wrote another script (using CasperJS and SlimerJS) to generate animations
+    from Street View frames.
   </p>
+  <!--  -->
+  <!-- <p>[ADD PART ABOUT BRIAN]</p> -->
+  <!-- <p>[ADD SOMETHING ABOUT EACH CATEGORY OF LOCATION]</p> -->
 
-  <p>Vid</p>
+  <!-- <h3>Real Estate Assets Owned by US Congresspeople</h3> -->
+  <div class='embed-container'>
+    <iframe src="https://player.vimeo.com/video/126441049" frameborder="0" webkitallowfullscreen
+    mozallowfullscreen allowfullscreen></iframe>
+  </div>
+  <br>
+  <br>
+  <!-- <h3>Privately Owned and Run Prisons</h3> -->
+  <div class='embed-container'>
+    <iframe src="https://player.vimeo.com/video/126441050" frameborder="0" webkitallowfullscreen
+    mozallowfullscreen allowfullscreen></iframe>
+  </div>
+  <br>
+  <br>
+  <!-- <p>It's super cool how there's a profit motive in incarcerating people.</p> -->
+  <!-- <p>Corrections Corporation of America Stock Price</p> -->
+  <!-- <p> -->
+  <!--   <a href="https://www.google.com/finance?chdnp=0&#38;chdd=0&#38;chds=0&#38;chdv=0&#38;chvs=Linear&#38;chdeh=0&#38;chfdeh=0&#38;chdet=1430164800000&#38;chddm=98923&#38;chls=IntervalBasedLine&#38;q=NYSE:CXW&#38;ntsp=0&#38;ei=zG8&#45;VaCMMKHXsAfoh4HACw"> -->
+  <!--     <img src="https://www.google.com/finance/getchart?q=CXW&#38;p=2Y"> -->
+  <!--   </a> -->
+  <!-- </p> -->
 
-  <h3>For-Profit Universities</h3>
-  <p>Red herring since non-profit universities are just as exploitative.</p>
-  <p>Vid</p>
 
-  <p>To generate the animations, I capture screenshots from Google Streetview with CasperJS
-    and SlimerJS, and then use FFMPEG to stitch the frames into videos.</p>
+  <!-- <h3>For&#45;Profit Universities</h3> -->
+  <!-- <p>Red herring since non&#45;profit universities are just as exploitative.</p> -->
+  <div class='embed-container'>
+    <iframe src="https://player.vimeo.com/video/126442383" frameborder="0" webkitallowfullscreen
+    mozallowfullscreen allowfullscreen></iframe>
+  </div>
+
 </section>
