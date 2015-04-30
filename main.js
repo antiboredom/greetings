@@ -18,7 +18,10 @@ if (hash) {
   showProject(hash);
 }
 
-$('a.project').click(function(){
-  showProject($(this).attr('href'));
-});
+// $('a.project').click(function(){
+  // showProject($(this).attr('href'));
+// });
 
+$(window).on('hashchange', function(){
+  showProject(window.location.hash);
+});
